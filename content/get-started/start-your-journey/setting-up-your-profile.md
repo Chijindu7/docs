@@ -1,22 +1,22 @@
 ---
-title: Setting up your profile
-shortTitle: Set up your profile
-intro: Your profile tells people who you are and what you're interested in.
-versions:
+Title: Setting up your profile
+Short Title: Set up your profile
+Intro: Your profile tells people who you are and what you're interested in.
+Versions:
   fpt: '*'
   ghes: '*'
   ghec: '*'
-topics:
+Topics:
   - Profile
   - Accounts
-type: how_to
-redirect_from:
+Type: how_to
+Redirect_from:
   - /get-started/quickstart/setting-up-your-profile
 ---
 
 ## About your profile
 
-Your profile page on {% data variables.product.prodname_dotcom %} is a place where people can find out more about you. You can use your profile to:
+Your profile page on {% data variables.product.prodname_dotcom %} is a place where people can learn more about you. You can use your profile to:
 
 * **Share** your interests and skills.
 * **Showcase** your projects and contributions.
@@ -43,7 +43,7 @@ Next, we'll add some basic information about yourself to share with other {% dat
 
 ### Adding a bio
 
-1. On your profile page, under your profile picture, click **Edit profile**.
+1. click **Edit profile** under your profile picture on your profile page.
 1. Under "Bio", write one or two sentences about yourself, such as who you are and what you do.
 
    {% note %}
@@ -72,9 +72,9 @@ In the following steps, we'll create and edit your profile README.
 ### Step 2: Edit the `README.md` file
 
 {% data reusables.profile.edit-profile-readme %}
-1. In the "Edit" view, you'll see some pre-populated text to get you started. On line 1, delete the text that says `### Hi there` and type `# About me`.
+1. In the "Edit" view, you'll see some pre-populated text to get you started. On line 1, delete the text that says `### Hi there` and type `# About me.`
    * In Markdown syntax, `###` renders the plain text as a small ("third-level") heading, while `##` or `#` renders a second- and first-level heading respectively.
-1. Toggle to "Preview" to see how the plain text now renders. You should see the new text displayed as a much larger heading.
+1. Toggle to "Preview" to see how the plain text now renders. The new text should be displayed as a much larger heading.
 1. Toggle back to the "Edit" view.
 1. Delete line 3 and line 16.
    * This HTML syntax (e.g. ` <!-- `) is keeping the other lines hidden when you toggle to "Preview".
@@ -87,7 +87,7 @@ In the following steps, we'll create and edit your profile README.
 
 ### Step 3: Publish your changes to your profile
 
-1. When you're happy with how your profile README looks in "Preview", and you're ready to publish it, click **Commit changes..**.
+1. When you're happy with how your profile README looks in "Preview" and you're ready to publish it, click **Commit changes..**.
 1. In the open dialog box, simply click again **Commit changes**.
 1. Navigate back to your profile page. You will see your new profile README displayed on your profile.
 
